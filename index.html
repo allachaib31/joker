@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body class="">
+    <!-- Navbar -->
+    <nav
+      id="nav"
+      class="relative container mx-auto px-3 py-6 lg:p-6 text-white"
+    >
+      <div class="flex items-center justify-between">
+        <div class="pt-2">
+          <img src="img/logo.png" alt="" />
+        </div>
+        <!-- medium screen -->
+        <div class="hidden lg:flex space-x-3 text-2xl">
+          <a href="#" class="hover:text-green-600">Pricing</a>
+          <a href="#" class="hover:text-green-600">Product</a>
+          <a href="#" class="hover:text-green-600">About Us</a>
+          <a href="#" class="hover:text-green-600">Careers</a>
+          <a href="#" class="hover:text-green-600">Community</a>
+        </div>
+        <button id="btn" class="lg:hidden block absolute" style="left: 86%;transform: translateX(-50%);">
+          <img id="toggle" src="img/toggle.png" alt="" />
+        </button>
+        <!-- Mobile Screen -->
+        <div class="lg:hidden">
+          <div
+            id="menu"
+            class="hidden absolute rounded-xl flex-col space-y-3 text-2xl"
+          >
+            <a href="#" class="hover:text-green-600 p-3">Pricing</a>
+            <a href="#" class="hover:text-green-600 p-3">Product</a>
+            <a href="#" class="hover:text-green-600 p-3">About Us</a>
+            <a href="#" class="hover:text-green-600 p-3">Careers</a>
+            <a href="#" class="hover:text-green-600 p-3">Community</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Movie Section -->
+    <section class="relative container mx-auto text-white p-6 mt-28">
+      <div class="flex flex-col xl:flex-row items-start justify-between">
+        <div class="space-y-8 xl:w-1/2">
+          <h1 class="text-3xl md:text-5xl uppercase">
+            Put On A <span class="font-bold">Happy Face</span> Face
+          </h1>
+          <p class="text-2xl">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic
+            cupiditate a placeat vitae id quaerat quam, veritatis eaque sint at
+            dolores assumenda fugiat incidunt sapiente illo accusantium quae
+            ipsum ad!
+          </p>
+          <div class="flex space-x-6 items-center">
+            <img src="img/play.png" alt="" /> <span>Watch Trailer</span>
+          </div>
+        </div>
+        <div class="xl:w-1/2 text-white flex  xl:items-center xl:justify-end mt-16">
+          <div class="xl:space-y-6 flex xl:flex-col">
+            <a href="#" class="block mr-4 xl:mr-0"><img src="img/facebook.png" alt="" style="filter:invert(1)"/></a>
+            <a href="#" class="block mr-4 xl:mr-0"><img src="img/twitter.png" alt="" style="filter:invert(1)"/></a>
+            <a href="#" class="block mr-4 xl:mr-0"><img src="img/instagram.png" alt="" style="filter:invert(1)"/></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Video section -->
+    <section class="relative container mx-auto">
+      <div class="flex justify-center" style="height: 200px">
+        <img src="img/joker.png" alt="" width="300px" height="100%" />
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
